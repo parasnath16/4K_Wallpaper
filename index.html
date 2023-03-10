@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>4K Wallpaper</title>
+    <link rel="icon" type="image/x-icon" href="./Images/4k logo.jpg">
+</head>
+
+<body oncontextmenu="return false">
+
+    <!-- //header section -->
+    <header class="header_section">
+
+        
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">4K Wallpaper</label>
+      
+            <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="About.html">About Us</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+              <li><a href="Login.html">Login/SignUp</a></li>
+            </ul>
+          </nav>
+
+
+         <!-- //afetr nav bar  -->
+        <div class="header_content">
+            <h1 class="logo">4K Wallpaper</h1>
+            <p class="sub_line">The Best Royalty
+                Free Images You Can Find Here.</p>
+
+                <!-- //search section and button  -->
+            <form action="Search.html">
+                <input type="search"
+                    autocomplete="off"
+                    name="search"
+                    class="search_box"
+                    placeholder="Search Image"
+                    id="">
+                <button class="search_btn"
+                    type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+
+
+
+    <!-- //popup-window goes here  -->
+    <div class="image_popup hide">
+        <!-- //button of download and close   -->
+        <div class="button_for_popup">
+            <button class="close_btn"><i class="fa-solid fa-xmark"></i></button>
+        <a href="#" class="download_btn">download image</a>
+        </div>
+
+       <div class="popup_img_goes_here">
+        <img src="img/logo.jpg" class="popup_img" alt="img">
+       </div>
+    </div>
+
+
+             <!-- //---gallary section---- -->
+             <section class="gallary">
+               <!-- //all images will be rendered here  -->
+            </section>
+
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

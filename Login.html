@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <style>
+    * {
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+    }
+
+    p,
+    a,
+    h1 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: white;
+      margin-bottom: 10px;
+
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('./Images/g.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1;
+    }
+
+    form {
+      width: 400px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      background-color: rgba(0, 0, 0, .7);
+      border-radius: 10px;
+    }
+
+    input {
+      width: 60%;
+      padding: 10px;
+      outline-width: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-transform: capitalize;
+      border-radius: 3px;
+      border: none;
+    }
+
+    #submit {
+      border: none;
+      border-radius: 3px;
+      font-size: 2.1vh;
+      font-weight: 550;
+      transition-duration: .5s;
+      cursor: pointer;
+    }
+
+    #submit:hover {
+      background-color: black;
+      color: #f9f9f9;
+    }
+
+    @media (max-width:700px) {
+      form {
+        width: 250px;
+        height: 300px;
+      }
+
+      h1 {
+        font-size: 3vh;
+        margin: 0px 0px;
+      }
+
+      input {
+        padding: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <form action="action.php">
+    <h1>Login Page</h1>
+    <input type="text" placeholder="Enter your text" required />
+
+    <input type="password" placeholder="Enter password" required />
+
+    <input type="submit" name="" id="submit" />
+
+    <p>Need an account? <a href="Signup.html">SignUp</a></p>
+  </form>
+</body>
+
+</html>
